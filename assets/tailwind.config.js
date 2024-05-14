@@ -12,13 +12,7 @@ module.exports = {
         "../lib/talentlink_web/**/*.*ex",
         'node_modules/preline/dist/*.js',
     ],
-    theme: {
-        extend: {
-            colors: {
-                brand: "#FD4F00",
-            }
-        },
-    },
+    darkMode: 'class',
     plugins: [
         require('preline/plugin'),
         require("@tailwindcss/forms"),
