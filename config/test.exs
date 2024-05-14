@@ -17,7 +17,7 @@ config :talentlink, Talentlink.Repo,
 # you can enable the server option below.
 config :talentlink, TalentlinkWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "ZEaaSSwkQv1rcAhistWSmnA94Fs053m/OZvt/jI0tkupfflaSRn0JnhI+JnTQ9Ny",
+  secret_key_base: "jizz7/2qsLxIDxdYH0A4xEReLqNnihAwiYrRJcU/x93yajTf8pCas12uN1W0Xqks",
   server: false
 
 # In test we don't send emails.

@@ -20,8 +20,11 @@ config :talentlink, TalentlinkWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "g0nadHrkigpsbhGRf/Px4M/WZN1H/rThNJFtCpy2p3QYidMtDZMcLBMfNfsLBc8D",
-  watchers: []
+  secret_key_base: "kHTdONbVsWX0La+3vNRmy8Olfsf4+1FlW6gd3+NIUhp5DskBupfg81AXzMiPgkwT",
+  watchers: [
+    esbuild: {Esbuild, :install_and_run, [:talentlink, ~w(--sourcemap=inline --watch)]},
+    tailwind: {Tailwind, :install_and_run, [:talentlink, ~w(--watch)]}
+  ]
 
 # ## SSL Support
 #

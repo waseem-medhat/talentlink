@@ -7,7 +7,7 @@ defmodule TalentlinkWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_talentlink_key",
-    signing_salt: "XcTf2jKr",
+    signing_salt: "QG/iCguL",
     same_site: "Lax"
   ]
 
