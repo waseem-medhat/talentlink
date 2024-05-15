@@ -4,7 +4,7 @@ defmodule TalentlinkWeb.AccountLoginLive do
   def render(assigns) do
     ~H"""
     <div class="mx-auto max-w-sm">
-      <.header class="text-center">
+      <.header class="text-center dark:text-white">
         Log in to account
         <:subtitle>
           Don't have an account?
