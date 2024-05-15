@@ -906,10 +906,6 @@ select {
   top: 100%;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -996,6 +992,10 @@ select {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .block {
@@ -1156,6 +1156,10 @@ select {
 
 .flex-nowrap {
   flex-wrap: nowrap;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -1403,6 +1407,10 @@ select {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1467,8 +1475,9 @@ select {
   text-align: start;
 }
 
-.text-\[0\.8125rem\] {
-  font-size: 0.8125rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-lg {
@@ -1484,6 +1493,14 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[0\.8125rem\] {
+  font-size: 0.8125rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -1765,6 +1782,10 @@ select {
   text-decoration-line: underline;
 }
 
+.hover\:decoration-blue-600:hover {
+  text-decoration-color: #2563eb;
+}
+
 .hover\:opacity-40:hover {
   opacity: 0.4;
 }
@@ -2007,19 +2028,9 @@ select {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-:is(:where(.dark) .dark\:bg-blue-900) {
+:is(:where(.dark) .dark\:bg-zinc-900) {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:bg-blue-950) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:bg-slate-950) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 :is(:where(.dark) .dark\:bg-opacity-80) {
@@ -2049,6 +2060,11 @@ select {
 :is(:where(.dark) .dark\:text-neutral-400) {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+:is(:where(.dark) .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 :is(:where(.dark) .dark\:hover\:bg-slate-800:hover) {

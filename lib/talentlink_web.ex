@@ -85,6 +85,7 @@ defmodule TalentlinkWeb do
       import Phoenix.HTML
       # Core UI components and translation
       import TalentlinkWeb.CoreComponents
+      import TalentlinkWeb.TalentlinkComponents
       import TalentlinkWeb.Gettext
 
       # Shortcut for generating JS commands
